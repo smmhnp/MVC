@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(../font/Yekan.eot);
+    src: url(../font/Yekan.eot?#iefix) format("embedded-opentype"),
+         url(../font/Yekan.woff) format("woff"),
+         url(../font/Yekan.ttf) format("truetype"),
+         url(../font/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    font-family: Yekan, Tahoma ;
+}
+
+html,
+body {
+    direction: rtl;
+    text-align: right !important;
+    height: 100%;
+    background-color: #333;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* Custom Cover styles */
+.cover-container {
+    max-width: 800px;
+}
+
+/*
+* Header
+*/
+
+.nav-link {
+    text-decoration: none !important;
+}
+
+.nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    color: rgba(255, 255, 255, .75);
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+} 
+
+#btn-register {
+    background: #333; 
+    color: #fff !important;
+    border-radius: 7px;
+}
+
+#msg-flash {
+    font-size: 15px !important;
+}
