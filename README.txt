@@ -1,4 +1,4 @@
-This project has a login and register page designed with object-oriented and MVC. In addition, I designed a small hacked CMS that can perform the four main CRUD database operations, given that each user can only edit or delete their own articles.
+This project has a login and registration page designed with object-oriented and MVC. In addition, I also designed a small CMS that can perform four basic database operations (CRUD), considering that each user can only edit or delete their own articles.
 
 for execute app:
 move "mvcproject" folder to "htdocs" folder in xampp
